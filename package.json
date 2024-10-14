@@ -1,0 +1,19 @@
+{
+  "name": "ratelimit-fastify",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@unkey/ratelimit": "^0.4.5",
+    "dotenv": "^16.4.5",
+    "fastify": "^5.0.0"
+  }
+}
